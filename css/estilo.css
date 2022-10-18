@@ -1,0 +1,245 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    width: 102%;
+    height: 150px;
+    background-color: #036f03;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -150px;
+    position: fixed;
+    z-index: 20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+main{
+    margin-top: 150px;
+    background-image:url(images/vegetables-5951982.jpg);
+    background-size:contain;
+    background-attachment:fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#head-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-logo{
+     width: 90px;
+     height: 90px;
+     border-radius: 50%;
+     margin-left: 40px;      
+}
+
+#nav-bar{
+    margin-right: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.nav-link{
+    margin: 3px 20px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    background:#040aa0;
+    color:white;
+    margin: 0 20px 0;
+}    
+
+h1{
+    color: rgb(28, 25, 48);
+    font-size: 2.7em;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.relative {
+    color: black;
+    position: relative;scroll-snap-type-y: SS;
+    display: inline-block;
+    margin: 0 25px;
+} 
+
+p2 {
+    color: black;
+    width: 100%;
+    height: 100%;
+    text-align: justify ;
+    font-size: 1.5em;
+}
+
+form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid rgb(16, 5, 61);
+    border-radius: 1em;
+}
+
+.grupo div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: rgb(20, 15, 90);
+}
+
+.button{
+    padding-left: 90px;
+}
+
+button {
+    margin-left: .5em;
+}
+
+.item {
+    display: -moz-grid-line;
+    margin: 0px 10px;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+}
+  
+li:hover {
+    background:rgb(45, 11, 139);
+}
+  
+.botonera {
+    text-align: center;
+    background:rgb(76, 76, 185);
+    border-bottom: 3px solid white;
+    padding-left: 0;
+    position: relative;
+}
+
+.biotexto p {
+    color: black;
+    width: 100%;
+    height: 3%;
+}
+
+.footer{
+    width: 100%;
+    height: 110px;
+    background-color: #0a0e6c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    display: flex;
+}   
+
+
+.contenedor-icono{
+    width: 550px;
+    font-size: 45px;  
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+
+#foot {
+    width: 260px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-left: 70px;
+    margin-bottom: 30px;
+
+}
+
+#link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.7rem;
+    color: white;
+    margin: 0 90px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+   
+h3 {
+    color: red;
+}
+
+p {
+    font-size: 1.15em;
+} 
+
+table, th, td {
+    border: 1px solid black;
+    width:40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(219, 5, 5);
+    margin: 15px auto;
+}
+
+.biotexto img {
+    display: block; 
+    margin: 10px auto;
+    width: 350px;
+    height: 250px;
+}
+
+.capt {
+	background-color:rgb(42, 108, 110);
+	width: 300px;
+	height:100px;
+}
+
+p3 {
+    font-size: 1.75em;
+    color: red;
+    position: relative;
+}
+
+#Captcha {
+	/* position: relative; */
+	left : 60px;
+	top: 5px;
+}
+
+#refresh {
+	/* position:relative; */
+	left:230px;
+	width:30px;
+	height:30px;
+	bottom:35px;
+}
+
+#txtInput, #Button1 {
+	position: relative;
+	left:40px;
+	bottom: 40px;
+}
+
+.grupo input:invalid {
+    border: 1px solid red;
+}  

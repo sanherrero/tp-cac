@@ -1,0 +1,22 @@
+#header{
+    font-weight: bold
+}
+
+.carousel-item{
+    text-decoration: none;
+    height: 25Rem;
+
+    background-position: center;
+    background-size: cover;
+
+}
+#parrafos-receta{
+  
+    text-align: center;
+    color: white;
+    font-size: 1rem; 
+    text-decoration: none;
+}
+p{
+    text-align: center
+}
