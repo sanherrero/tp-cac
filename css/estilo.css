@@ -18,7 +18,7 @@ html{
 main{
     margin-top: 150px;
     background-image:url(images/vegetables-5951982.jpg);
-    background-size:contain;
+    background-size:cover;
     background-attachment:fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
